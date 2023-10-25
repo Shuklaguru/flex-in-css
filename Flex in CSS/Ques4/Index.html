@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Price List</title>
+    <style>
+       body, p,h2{
+        margin: 0;
+        padding: 0;
+        font-family:  sans-serif;
+       }
+
+       .pricetag{
+         min-height: 100vh;
+         padding-top: 100px;
+         display: flex;
+         justify-content: center;
+         gap: 25px;
+       }
+       .card{
+          width: 250px;
+          height: fit-content;
+          background-color: azure;
+          border-radius: 7px;
+          padding-top: 50px;
+          padding-left: 35px;
+          padding-bottom: 35px;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+       }
+        .plan_name{
+            font-size: 30px;
+        }
+        .price{
+            font-size: 36px;
+            font-weight: 100;
+            margin: 12px 0;
+        }
+        .feature{
+            display: flex;
+            align-items: center;
+        }
+        .button{
+            display: flex;
+            justify-content: center;
+            margin: -15px;
+        }
+        .but{
+            
+            background-color: #202842;
+            color: white;
+            border-radius: 24px;
+            font-size: 18px;
+            padding: 10px 35px;
+            margin: 30px auto;
+            border-color: transparent;
+        }
+        
+        .darkcard{
+            background-color: #202842;
+            color: white;
+            
+           
+        }
+
+        
+        .dark_button{
+            background-color: white;
+            color: black;
+          
+           
+            border-radius: 24px;
+            font-size: 18px;
+            padding: 10px 35px;
+            margin: 30px auto;
+            border-color: transparent;
+        }
+        .darkcard{
+            width: 250px;
+          height: fit-content;
+          background-color: rgb(7, 7, 7);
+          border-radius: 7px;
+          padding-top: 50px;
+          padding-left: 35px;
+          padding-bottom: 35px;
+        }
+        .dark_button_container{
+            display: flex;
+            justify-content: center;
+            margin: -15px;
+        }
+
+    </style>
+</head>
+<body>
+      <section class="pricetag">
+             <div class="card">
+                  <h2 class="plan_name">Free Plan</h2>
+                  <p class="subhead">For Personal   </p>
+                  <h2 class="price">$0</h2>
+                  <p class="feature">1 users</p>
+                  <p class="feature">4 Web mails</p>
+                  <p class="feature">Responsive Website</p>
+                  <p class="feature">Free SSL</p>
+                  <div class="button">
+                    <button class="but">Subscribe now</button>
+                  </div>
+             </div>
+             <div class="darkcard">
+                <h2  class="plan_name">Basic Plan</h2>
+                <p class="subhead">For small business</p>
+                <h2 class="price">$29</h2>
+                <p class="feature">4 users</p>
+                <p class="feature">10 Web mails</p>
+                <p class="feature">Responsive Website</p>
+                <p class="feature">Free SSL</p>
+                <div class="dark_button_container">
+                  <button class="dark_button">Subscribe now</button>
+                </div> 
+             </div>
+             <div  class="card">
+                <h2 class="plan_name">Pro Plan</h2>
+                  <p class="subhead">For enterprise</p>
+                  <h2 class="price">$49</h2>
+                  <p class="feature">Unlimited users</p>
+                  <p class="feature">Unlimited mails</p>
+                  <p class="feature">Responsive Website</p>
+                  <p class="feature">Free SSL + SEO</p>
+                  <div class="button">
+                    <button class="but">Subscribe now</button>
+                  </div>
+             </div>
+      </section>
+</body>
+</html>

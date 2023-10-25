@@ -1,0 +1,28 @@
+﻿Flexbox in CSS Assignment
+Assignment 0uestion 
+       Ans 1-   Flex Layout-   
+1. Primary designed for one dimensional layouts, either as rows and columns.
+2. It is best to distribute space along a single axis, which make it ideal for creating flexible and responsive design.
+Grid layout-
+1. Designed for two dimensional layout with rows and column.
+2. It allow precise control over the placement of items in both the horizontal and vertical dimensions.
+Flex box is great for one dimensional layouts with a focus on content distribution along a single axis , while grid is ideal for two dimensional layouts , offering control over two dimensional for complex layouts.
+I will choose them as their use cases.
+Ans 2-   
+1. Justify-content-    It is property is used to control space between main axis of a container with in a flexbox and grid layouts. 
+2. Align-items -     It is property is used to control space between cross axis of main container . the cross axis is perpendicular to the main axis.
+3. Gap-   Gap property specifies the space between the two items.
+4. Flex-direction-   used to specify primary axis of a flex container and the direction in which flex item are placed inside that container.
+5. flex- wrap –  It is property that how flex item are wrapped within a flex container when the do not fit in.
+
+
+04. A c ie t   y urs w3 ts t  3dd 3 *rici g secti      their website t  sh wc3se their  ew y i tr duced  *re%iu% * 3 s. 
+Y u h3ve t  bui d the *rici g secti    r their busi ess. They h3ve *r vided y u with the ig%3 desig   r the  s3%e. Link 
+Full Stack Web Development
+Assignment Question
+You can refer to the figma design and download the assets from the same. Q5. build a clone of the IRCTC Ticket booking page. 
+Task 5: 
+Problem Statement 
+Explain the z-index, with a code example. 
+Assets can be downloaded from the figma file provided below Link to the figma file: Link  
+Full Stack Web Development
